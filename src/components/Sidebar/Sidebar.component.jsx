@@ -4,30 +4,25 @@ import AnalyticsIcon from '@mui/icons-material/Analytics';
 import AssistantIcon from '@mui/icons-material/Assistant';
 
 const Sidebar = () => {
+    var iconStyle = {
+        fontSize : "40px",
+        marginTop : "10px",
+        color : "rgba(0, 0, 0, .5)",
+        transition : "all .5s ease-in-out",
+        "&:hover" : {
+            color : "rgba(0, 0, 0, .8)",
+        }
+        
+        }
     return ( 
         <div className="sidebar-container">
             <ul>
-                <li><AddIcon sx={{
-                    fontSize : "40px",
-                    marginTop : "10px",
-                    color : "rgba(0, 0, 0, .5)"
-                    
-                    }}/></li>
+                <li><AddIcon sx={iconStyle}/></li>
                 <li>
-                    <AnalyticsIcon sx={{
-                    fontSize : "40px",
-                    marginTop : "10px",
-                    color : "rgba(0, 0, 0, .5)"
-                    
-                    }} />
+                    <AnalyticsIcon sx={iconStyle} />
                 </li>
                 <li>
-                    <AssistantIcon sx={{
-                    fontSize : "40px",
-                    marginTop : "10px",
-                    color : "rgba(0, 0, 0, .5)"
-                    
-                    }} />
+                    <AssistantIcon sx={iconStyle} />
                 </li>
 
             </ul>

@@ -7,12 +7,7 @@ function App() {
     <div>
       <header><Navbar /></header>
       <Sidebar />
-      <footer><Footer /></footer>
-      
-
-      
-
-
+      <footer><Footer /></footer>   
     </div>
   );
 }
