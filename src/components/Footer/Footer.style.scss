@@ -28,9 +28,11 @@
 }
 @media only screen and (max-width: 480px) {
     .footer-container{
+        margin-bottom: 60px;
         ul{
             li{
                 display: block;
+                float: left;
             }
         }
     }

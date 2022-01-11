@@ -17,12 +17,21 @@ const Sidebar = () => {
     return ( 
         <div className="sidebar-container">
             <ul>
-                <li><AddIcon sx={iconStyle}/></li>
                 <li>
+                <button>
+
+                    <AddIcon sx={iconStyle}/>
+                </button>
+                    </li>
+                <li>
+                    <button>
                     <AnalyticsIcon sx={iconStyle} />
+                    </button>
                 </li>
                 <li>
+                    <button>
                     <AssistantIcon sx={iconStyle} />
+                    </button>
                 </li>
 
             </ul>
