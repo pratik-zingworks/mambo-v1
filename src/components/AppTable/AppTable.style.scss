@@ -1,0 +1,38 @@
+@import "../../App.scss";
+
+.tableContainer{
+    margin: 80px auto;
+    width: 80%;
+    border-radius: 6px;
+    // padding: 10px;
+
+    .tableTitle{
+        padding: 8px;
+    }
+
+    .table-wrapper{
+        // border: 1px solid rgba($color: #000000, $alpha: .4);
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 4px 4px 20px 0px rgba($color: #000000, $alpha: .1);
+
+        //table
+        table{
+            margin: auto;
+            width: 100%;
+            background: #fff;
+            text-align: center;
+            border-collapse: collapse;
+            th{
+                padding: 12px;
+                font-size: 16px;
+                font-family: $primaryFontStyle;
+            }
+            td{
+                border-top: 1px solid rgba($color: #000000, $alpha: .4);
+                padding: 12px;
+                font-size: 14px;
+            }
+        }
+    }
+}
